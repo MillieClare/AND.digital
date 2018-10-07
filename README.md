@@ -1,4 +1,4 @@
-![Completed task screenshot](images/AND_task_final.png)
+![Completed task demonstration](images/dropdown_demo.gif)
 
 ## Completed
 - Split index.html into index.html, script.js & main.css
