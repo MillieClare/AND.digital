@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+body {
+    max-width: 500px;
+    margin: auto; 
+}
+
+#container {
+    font-family: 'KoHo', Helvetica, sans-serif;
+    color: #191970;
+    text-align: center;
+}
+
+.candidates {
+  font-size: medium;
+  margin: 45px;
+  width: 480px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.candidates th {
+  color: #039;
+  padding: 10px 8px;
+  border-bottom: 2px solid #6678b1;
+  border-right: 2px solid #6678b1;  
+  
+}
+
+.candidates td {
+  color: #669;
+  padding: 10px 5px 15px 8px;
+  border-right: 2px solid #6678b1;    
+}
+
+.candidates tbody tr:hover td {
+  color: #039;
+  
+}
+
+table {
+    font-family: 'KoHo', Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+.candidates th:last-child {
+    border-right: none;
+}
+
+hr { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #6678b1, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #6678b1, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #6678b1, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #6678b1, #f0f0f0); 
+  }
